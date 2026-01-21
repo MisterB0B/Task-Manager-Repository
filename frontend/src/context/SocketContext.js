@@ -14,7 +14,7 @@ export const SocketProvider = ({ children }) => {
   useEffect(() => {
     if (!user) return;
 
-    const newSocket = io('http://localhost:3000', {
+    const newSocket = io('https://led-stringers-api.onrender.com', {
       transports: ['websocket'],
       reconnection: true,
       reconnectionAttempts: 5,
