@@ -9,7 +9,7 @@ export const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
 
-  const API_URL = 'http://localhost:3000/api';
+  const API_URL = 'https://led-stringers-api.onrender.com/api';
 
   useEffect(() => {
     loadStoredData();
