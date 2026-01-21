@@ -16,7 +16,7 @@ import {
 import { useAuth } from '../context/AuthContext';
 import axios from 'axios';
 
-const API_URL = 'http://localhost:3000/api';
+const API_URL = 'https://led-stringers-api.onrender.com/api';
 
 const TaskDetailScreen = ({ route, navigation }) => {
   const { taskId } = route.params;
