@@ -16,7 +16,7 @@ import { useNotifications } from '../context/NotificationContext';
 import { useTheme as useCustomTheme } from '../context/ThemeContext';
 import axios from 'axios';
 
-const API_URL = 'http://localhost:3000/api';
+const API_URL = 'https://led-stringers-api.onrender.com/api';
 
 const UserDashboard = ({ navigation }) => {
   const { user, logout } = useAuth();
